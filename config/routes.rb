@@ -7,7 +7,6 @@ Rails.application.routes.draw do
     get "/index" => "index#index"
     get "/stuff" => "stuff#index"
     get "/bisels" => "bisel#index"
-
   end
 
 end
