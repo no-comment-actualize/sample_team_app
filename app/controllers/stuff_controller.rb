@@ -1,6 +1,5 @@
-class StuffController < ApplicationController
-
+class Api::StuffController < ApplicationController
   def index
-    render json: {message: "We need to think of t-shirt ideas!"}
+    render json: {message: "Hello World t-shirt idea"}
   end
 end
