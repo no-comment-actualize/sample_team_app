@@ -1,6 +1,6 @@
 class Api::ButtonsController < ApplicationController
 
   def index
-    render json: {message: "how you doin"}
+    render json: {message: "loosen up my"}
   end
 end
