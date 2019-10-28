@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
     get "/pages/:id" => "pages#show"
 
+    get "/bisels" => "bisel#index"
+
   end
 
 end
