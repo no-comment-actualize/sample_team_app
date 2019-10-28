@@ -1,3 +1,5 @@
 class Api::ProductsController < ApplicationController
-  render json: {message: "hey girl"}
+  def index
+    render json: {message: "hey girl"}
+  end
 end
